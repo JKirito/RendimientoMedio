@@ -26,6 +26,12 @@ public class RendMedioMapper extends Mapper<LongWritable, Text, CeldaWritable, D
 		if (latitudCampo.equals(MonitorCampo.LATITUD.name()) || longitudCampo.equals(MonitorCampo.LONGITUD.name())) {
 			return;
 		}
+
+		//Solo me quedo con los de un monitor
+		if(!values[MonitorCampo.FNAME.value()].toString().equals("0JpiX3keB7")){
+			System.out.println("saltenado linea xq es del monitor... "+values[MonitorCampo.FNAME.value()].toString());
+			return;
+		}
 		DoubleWritable latitud = new DoubleWritable(Double.parseDouble(latitudCampo));
 		DoubleWritable longitud = new DoubleWritable(Double.parseDouble(longitudCampo));
 		CoordenadaWritable coordenada = new CoordenadaWritable(latitud, longitud);

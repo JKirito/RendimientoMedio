@@ -179,5 +179,7 @@
 	<classpathentry kind="lib" path="/home/pruebahadoop/Descargas/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-module-junit4-1.5.1.jar"/>
 	<classpathentry kind="lib" path="/home/pruebahadoop/Descargas/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-module-junit4-common-1.5.1.jar"/>
 	<classpathentry kind="lib" path="/home/pruebahadoop/Descargas/apache-mrunit-1.1.0-hadoop1-bin/lib/powermock-reflect-1.5.1.jar"/>
+	<classpathentry kind="lib" path="/home/pruebahadoop/Descargas/mockito-1.9.5/mockito-all-1.9.5.jar"/>
+	<classpathentry kind="lib" path="/home/pruebahadoop/Descargas/mockito-1.9.5/separate-jars/mockito-core-1.9.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

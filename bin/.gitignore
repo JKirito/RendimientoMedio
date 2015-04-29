@@ -1,5 +1,4 @@
 /MapRed/
-/tests/
-/RendMedioDriver.class
-/RendMedioMapper.class
-/RendMedioReducer.class
+/entities/
+/funciones/
+/test/
